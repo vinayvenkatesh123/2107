@@ -1,46 +1,228 @@
 {
-  "block1": [
+    "block1": [
+        {
+            "id": "keeganatchison",
+            "username": "keeganatchison",
+            "first": "Keegan",
+            "last": "Atchison",
+            "gradeLevel": 11,
+            "clickcount": 11,
+            "lasttime": 1611850168950,
+            "picked": false
+        },
+        {
+            "id": "maximoavalon",
+            "username": "maximoavalon",
+            "first": "Maximo",
+            "last": "Avalon",
+            "gradeLevel": 9,
+            "clickcount": 22,
+            "lasttime": 1611850168072,
+            "picked": false
+        },
+        {
+            "id": "zoebishop",
+            "username": "zoebishop",
+            "first": "Zoe",
+            "last": "Bishop",
+            "gradeLevel": 11,
+            "clickcount": 0,
+            "lasttime": 0,
+            "picked": false
+        },
+        {
+            "id": "nicholascofinas",
+            "username": "nicholascofinas",
+            "first": "Nicholas",
+            "last": "Cofinas",
+            "gradeLevel": 9,
+            "clickcount": 0,
+            "lasttime": 0,
+            "picked": false
+        },
+        {
+            "id": "rocketdavis",
+            "username": "rocketdavis",
+            "first": "Rocket",
+            "last": "Davis",
+            "gradeLevel": 9,
+            "clickcount": 0,
+            "lasttime": 0,
+            "picked": false
+        },
+        {
+            "id": "williamgross",
+            "username": "williamgross",
+            "first": "William",
+            "last": "Gross",
+            "gradeLevel": 9,
+            "clickcount": 0,
+            "lasttime": 0,
+            "picked": false
+        },
+
+        {
+            "id": "colehansen",
+            "username": "colehansen",
+            "first": "Cole",
+            "last": "Hansen",
+            "gradeLevel": 9,
+            "clickcount": 0,
+            "lasttime": 0,
+            "picked": false
+        },
+        {
+            "id": "rashidharoun",
+            "username": "rashidharoun",
+            "first": "Rashid",
+            "last": "Haroun",
+            "gradeLevel": 11,
+            "clickcount": 0,
+            "lasttime": 0,
+            "picked": false
+        },
+        {
+            "id": "samjennings",
+            "username": "samjennings",
+            "first": "Sam",
+            "last": "Jennings",
+            "gradeLevel": 10,
+            "clickcount": 0,
+            "lasttime": 0,
+            "picked": false
+        },
+        {
+            "id": "elliottekortus",
+            "username": "elliottekortus",
+            "first": "Elliotte",
+            "last": "Kortus",
+            "gradeLevel": 10,
+            "clickcount": 0,
+            "lasttime": 0,
+            "picked": false
+        },
+        {
+            "id": "roryleonard",
+            "username": "roryleonard",
+            "first": "Rory",
+            "last": "Leonard",
+            "gradeLevel": 9,
+            "clickcount": 0,
+            "lasttime": 0,
+            "picked": false
+        },
+        {
+            "id": "lucialopez",
+            "username": "lucialopez",
+            "first": "Lucia",
+            "last": "Lopez",
+            "gradeLevel": 9,
+            "clickcount": 0,
+            "lasttime": 0,
+            "picked": false
+        },
+
+        {
+            "id": "shaymaseckshick",
+            "username": "shaymaseckshick",
+            "first": "Shay",
+            "last": "Meseck-Schick",
+            "gradeLevel": 9,
+            "clickcount": 0,
+            "lasttime": 0,
+            "picked": false
+        },
+        {
+            "id": "alexolsen",
+            "username": "alexolsen",
+            "first": "Alex",
+            "last": "Olsen",
+            "gradeLevel": 9,
+            "clickcount": 0,
+            "lasttime": 0,
+            "picked": false
+        },
+        {
+            "id": "skyepratley",
+            "username": "skyepratley",
+            "first": "Skye",
+            "last": "Pratley",
+            "gradeLevel": 9,
+            "clickcount": 0,
+            "lasttime": 0,
+            "picked": false
+        },
+
+        {
+            "id": "henryroseman",
+            "username": "henryroseman",
+            "first": "Henry",
+            "last": "Roseman",
+            "gradeLevel": 11,
+            "clickcount": 0,
+            "lasttime": 0,
+            "picked": false
+        },
+        {
+            "id": "sophiasantosufkes",
+            "username": "sophiasantosufkes",
+            "first": "Sophia",
+            "last": "Santos-Ufkes",
+            "gradeLevel": 12,
+            "clickcount": 0,
+            "lasttime": 0,
+            "picked": false
+        },
+        {
+            "id": "gunnisonsweeney",
+            "username": "gunnisonsweeney",
+            "first": "Gunnison",
+            "last": "Sweeney",
+            "gradeLevel": 9,
+            "clickcount": 0,
+            "lasttime": 0,
+            "picked": false
+        },
+        {
+            "id": "arnoldtian",
+            "username": "arnoldtian",
+            "first": "Arnold",
+            "last": "Tian",
+            "gradeLevel": 9,
+            "clickcount": 0,
+            "lasttime": 0,
+            "picked": false
+        },
+        {
+            "id": "vinayvenkatesh",
+            "username": "vinayvenkatesh",
+            "first": "Vinay",
+            "last": "Venkatesh",
+            "gradeLevel": 9,
+            "clickcount": 0,
+            "lasttime": 0,
+            "picked": false
+        }
+    ],
+    "block5": [
     {
-      "id": "keeganatchison",
-      "username": "keeganatchison",
-      "first": "Keegan",
-      "last": "Atchison",
-      "gradeLevel": 11,
-      "clickcount": 3,
-      "lasttime": 1611848906837,
-      "picked": true
+        "id": "fionaalhadaf",
+        "username": "fionaalhadaf",
+        "first": "Fiona",
+        "last": "Alhadeff",
+        "gradeLevel": 10,
+        "clickcount": 7,
+        "lasttime": 1611849905394,
+        "picked": false
     },
     {
-      "id": "maximoavalon",
-      "username": "maximoavalon",
-      "first": "Maximo",
-      "last": "Avalon",
-      "gradeLevel": 9,
-      "clickcount": 11,
-      "lasttime": 1611848874817,
-      "picked": false
-    }
-  ],
-  "block5": [
-    {
-      "id": "fionaalhadaf",
-      "username": "fionaalhadaf",
-      "first": "Fiona",
-      "last": "Alhadeff",
-      "gradeLevel": 10,
-      "clickcount": 0,
-      "lasttime": 0,
-      "picked": false
-    },
-    {
-      "id": "isaacallnut",
-      "username": "isaacallnut",
-      "first": "Isaac",
-      "last": "Allnutt",
-      "gradeLevel": 12,
-      "clickcount": 0,
-      "lasttime": 0,
-      "picked": false
-    }
-  ]
+        "id": "isaacallnut",
+        "username": "isaacallnut",
+        "first": "Isaac",
+        "last": "Allnutt",
+        "gradeLevel": 12,
+        "clickcount": 6,
+        "lasttime": 1611849903490,
+        "picked": false
+    }]
 }
