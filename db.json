@@ -1,0 +1,46 @@
+{
+  "block1": [
+    {
+      "id": "keeganatchison",
+      "username": "keeganatchison",
+      "first": "Keegan",
+      "last": "Atchison",
+      "gradeLevel": 11,
+      "clickcount": 3,
+      "lasttime": 1611848906837,
+      "picked": true
+    },
+    {
+      "id": "maximoavalon",
+      "username": "maximoavalon",
+      "first": "Maximo",
+      "last": "Avalon",
+      "gradeLevel": 9,
+      "clickcount": 11,
+      "lasttime": 1611848874817,
+      "picked": false
+    }
+  ],
+  "block5": [
+    {
+      "id": "fionaalhadaf",
+      "username": "fionaalhadaf",
+      "first": "Fiona",
+      "last": "Alhadeff",
+      "gradeLevel": 10,
+      "clickcount": 0,
+      "lasttime": 0,
+      "picked": false
+    },
+    {
+      "id": "isaacallnut",
+      "username": "isaacallnut",
+      "first": "Isaac",
+      "last": "Allnutt",
+      "gradeLevel": 12,
+      "clickcount": 0,
+      "lasttime": 0,
+      "picked": false
+    }
+  ]
+}
