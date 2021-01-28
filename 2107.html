@@ -31,14 +31,12 @@
         <option value="block1">Block 1
         <option value="block5">Block 5
     </select>
-
     <button id="updateButton" class='center'>
         updateButton
     </button>
     <button id="pickStudent" class='center'>
         Pick Student
     </button>
-
     <div id="container">
         ...
     </div>
@@ -95,8 +93,12 @@
             } else {
                 theStyle = 'class="student"';
             }
+            const lastTime = new Date(students[i].lasttime);
+
+            //console.log(lastTime.toLocaleTimeString('en-US'));
+            let timeString = lastTime.toLocaleTimeString('en-US')
             content += `<div ${theStyle} id="${students[i].username}">
-    ${students[i].first} ${students[i].last} ${students[i].clickcount}
+    ${students[i].clickcount} ${students[i].first} ${students[i].last} ${timeString}
   </div>`;
         }
         let element = document.getElementById("container");
@@ -144,7 +146,8 @@
             .then(data => console.log(data)) // Manipulate the data retrieved back, if we want to do something with it
             .catch(err => console.log(err)) // Do something with the error
     }
-    function updateList(){
+
+    function updateList() {
         console.log('updateList')
         importStudents(`https://math.seattleacademy.org/${port}/${course}`);
     }
