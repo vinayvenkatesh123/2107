@@ -21,7 +21,11 @@
     }
 
     .picked {
-        background: green;
+        background: lightgreen;
+    }
+
+    .choosen {
+        background: orange;
     }
     </style>
 </head>
@@ -32,10 +36,13 @@
         <option value="block5">Block 5
     </select>
     <button id="updateButton" class='center'>
-        updateButton
+        Update Button
     </button>
     <button id="pickStudent" class='center'>
         Pick Student
+    </button>
+    <button id="raiseHand" class='center'>
+        Raise Hand
     </button>
     <div id="container">
         ...
@@ -43,7 +50,7 @@
     <script>
     console.clear();
     let course = 'block1';
-    let port = 1500;
+    let port = 1520;
     let students = [];
 
     function importStudents(theFile) {
@@ -77,6 +84,25 @@
 
     let pickButton = document.getElementById("pickStudent");
     pickButton.addEventListener("click", pickStudent);
+
+    function raiseHand(){
+        let randomStudentNum = Math.floor(Math.random() * students.length);
+        let student = students[randomStudentNum];
+
+        for (let i = 0; i < students.length; i++) {
+            if (students[i].choosen) {
+                students[i].choosen = false;
+                updateStudent(students[i]);
+            }
+        }
+
+        students[randomStudentNum].choosen = true;
+        updateStudent(students[randomStudentNum]);
+        renderList();
+    }
+
+    let chooseButton = document.getElementById("raiseHand");
+    chooseButton.addEventListener("click", raiseHand);
 
     function renderList() {
         students.sort(function(a, b) {
@@ -153,6 +179,7 @@
     }
     let updateButton = document.getElementById("updateButton");
     updateButton.addEventListener("click", updateList);
+    setInterval(updateList, 1000);
     </script>
 </body>
 

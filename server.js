@@ -1,5 +1,5 @@
 // server.js
-const port = 0; //set port
+const port = 1520; //set port
 if(port == 0){
 	console.log('set port in server.js')
 	process.exit(1);
