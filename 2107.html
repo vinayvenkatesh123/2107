@@ -80,7 +80,7 @@
 
     function renderList() {
         students.sort(function(a, b) {
-            return a.clickcount - b.clickcount;
+            return b.lasttime - a.lasttime;
         });
 
         // students.sort(function(a,b){return a.lasttime-b.lasttime})
